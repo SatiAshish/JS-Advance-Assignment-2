@@ -1,0 +1,42 @@
+<!-- Create a Tip Calculator. 
+
+User will input the total bill and corresponding tip should be the output
+based on percentage input. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Tip Calculator</h3>
+        <div class="inp">
+            <span class="bg">$</span>
+            <input type="number" id="num" placeholder="Enter Amount">
+        </div>
+        <div class="inp">
+            <label for="tip">Tip</label>
+            <input type="range" name="range" id="range" min="0" mex="100" value="0" step="1">
+            <span class="ran" id="ran"></span>
+        </div>
+        <div class="inp">
+            <div class="tip">
+                <span class="border">Tip Amount : </span>
+                <span class="tipamt" id="tipamt"></span>
+            </div>
+            <div class="amt">
+                <span class="border">Total Bill : </span>
+                <span class="bill" id="bill"></span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script2.js"></script>
+
+</html>
